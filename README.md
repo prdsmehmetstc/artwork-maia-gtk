@@ -4,6 +4,8 @@ GTK theme forked from [breeze-gtk](https://quickgit.kde.org/?p=breeze-gtk.git) t
 
 GTK2 theme made by [scionicspectre](https://github.com/scionicspectre/BreezyGTK), and colors changed too.
 
+The dark theme is not ported. And won't be installed.
+
 # Requirements
 
 - GTK+ 3.16
@@ -12,7 +14,7 @@ GTK2 theme made by [scionicspectre](https://github.com/scionicspectre/BreezyGTK)
 # Install instructions
 If your distribution doesn't provide a package, you can install the theme system-wide by copying it to the appropriate directory, usually "/usr/share/themes".
 ```
-find Breeze* -type f -exec install -Dm644 '{}' "$pkgdir/usr/share/themes/{}" \;
+find Maia-gtk -type f -exec install -Dm644 '{}' "$pkgdir/usr/share/themes/{}" \;
 ```
 
 To install only for the current user, copy the files to "~/.themes".
