@@ -2116,8 +2116,8 @@ column-header .titlebar .button.titlebutton,
           border-color: #bdc3c7;
           border-left-color: #eff0f1; }
     .notebook tab:hover, .notebook tab.prelight-page {
-      background-color: rgba(147, 206, 233, 0.2);
-      border-color: rgba(147, 206, 233, 0.2); }
+      background-color: rgba(129, 237, 217, 0.2);
+      border-color: rgba(129, 237, 217, 0.2); }
     .notebook tab.reorderable-page.top {
       border-width: 3px;
       border-style: solid;
@@ -2255,7 +2255,7 @@ column-header .titlebar .button.titlebutton,
   .notebook.arrow {
     color: #909396; }
     .notebook.arrow:hover {
-      color: #93cee9; }
+      color: #81edd9; }
     .notebook.arrow:active {
       color: #1abc9c; }
     .notebook.arrow:insensitive {
@@ -2284,7 +2284,7 @@ column-header .titlebar .button.titlebutton,
     background-color: transparent;
     box-shadow: none; }
     .scrollbar .button:hover {
-      color: #93cee9;
+      color: #81edd9;
       background-image: none;
       background-color: transparent; }
     .scrollbar .button:insensitive {
@@ -2420,7 +2420,7 @@ GtkSwitch {
       box-shadow: none;
       text-shadow: none; }
       GtkSwitch.trough:active:hover {
-        border-color: #93cee9; }
+        border-color: #81edd9; }
     GtkSwitch.trough:hover {
       border-color: #1abc9c; }
     GtkSwitch.trough:insensitive {
@@ -2442,7 +2442,7 @@ GtkSwitch {
     GtkSwitch.slider:active {
       background-color: #1abc9c; }
       GtkSwitch.slider:active:hover {
-        background-color: #93cee9; }
+        background-color: #81edd9; }
     GtkSwitch.slider:insensitive {
       background-color: #e6e7e8; }
   .list-row:selected GtkSwitch {
@@ -2984,7 +2984,7 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
       color: #31363b;
       border-color: #1abc9c;
       background-image: linear-gradient(to bottom, #eff0f1, #eff0f1);
-      border-color: #93cee9;
+      border-color: #81edd9;
       border-radius: 50%;
       box-shadow: inset 0 1px white, inset 0 -2px white, inset 0 -1px #e0e3e4; }
     .scale.slider:insensitive,
@@ -3469,7 +3469,7 @@ GtkPlacesSidebar.sidebar .view .separator:backdrop {
   box-shadow: none; }
 
 .list-row.button:hover {
-  background-color: rgba(147, 206, 233, 0.2); }
+  background-color: rgba(129, 237, 217, 0.2); }
 .list-row.button:active {
   box-shadow: none; }
 .list-row.button:selected:active {
@@ -4448,7 +4448,7 @@ these are pretty self explicative */
 titlebar colors */
 @define-color titlebar_bg_color #475057;
 @define-color titlebar_fg_color #fcfcfc;
-@define-color hover_color #93cee9;
+@define-color hover_color #81edd9;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
