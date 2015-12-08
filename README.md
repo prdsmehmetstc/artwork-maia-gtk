@@ -1,6 +1,8 @@
-# Gnome-breeze
+# gtk-theme-maia
 
-A GTK Theme Built to Match KDE's Breeze. GTK2 theme made by [scionicspectre](https://github.com/scionicspectre/BreezyGTK)
+GTK theme forked from [breeze-gtk](https://quickgit.kde.org/?p=breeze-gtk.git) to match the colors of Plasma 5 maia theme
+
+GTK2 theme made by [scionicspectre](https://github.com/scionicspectre/BreezyGTK), and colors changed too.
 
 # Requirements
 
