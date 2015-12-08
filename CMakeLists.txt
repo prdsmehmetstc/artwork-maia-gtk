@@ -10,9 +10,7 @@ include(FeatureSummary)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} "${CMAKE_SOURCE_DIR}/cmake")
 include(KDEInstallDirs)
 
-add_subdirectory(Breeze-dark-gtk)
 add_subdirectory(Breeze-gtk)
-add_subdirectory(kconf_update)
 
 find_package(GTKEngine)
 
