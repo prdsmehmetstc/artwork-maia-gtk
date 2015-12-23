@@ -124,7 +124,7 @@ GtkTextView {
     -gtk-icon-transform: rotate(1turn); } }
 .spinner {
   background-image: none;
-  background-color: blue;
+  background-color: #1ABB9B;
   opacity: 0;
   -gtk-icon-source: -gtk-icontheme("process-working-symbolic"); }
   .spinner:active {
@@ -343,7 +343,7 @@ GtkTextView {
     .button:active:hover, .button:checked:hover {
       color: #31363B;
       border-color: #696D71;
-      background-image: linear-gradient(to bottom, #96CDF1, #86B7D7); }
+      background-image: linear-gradient(to bottom, #81EDD9, #3EE4C4); }
   .button.flat:backdrop, .header-bar .titlebutton.button:backdrop,
   .titlebar .titlebutton.button:backdrop, .button.flat:insensitive, .header-bar .titlebutton.button:insensitive,
   .titlebar .titlebutton.button:insensitive, .button.flat:backdrop:insensitive, .header-bar .titlebutton.button:backdrop:insensitive,
@@ -1383,7 +1383,7 @@ GtkComboBox {
       .header-bar .button:checked:hover {
         color: #31363B;
         border-color: #696D71;
-        background-image: linear-gradient(to bottom, #96CDF1, #86B7D7);
+        background-image: linear-gradient(to bottom, #81EDD9, #3EE4C4);
         border-color: #31363B;
         box-shadow: none; }
       .titlebar .button:active:backdrop, .titlebar .button:checked:backdrop,
