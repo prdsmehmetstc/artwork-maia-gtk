@@ -197,7 +197,7 @@ GtkTextView { // This will get overridden by .view, needed by gedit line numbers
 
 .spinner {
   background-image: none;
-  background-color: blue;
+  background-color: $selected_bg_color;
   opacity: 0; // non spinning spinner makes no sense
   -gtk-icon-source: -gtk-icontheme('process-working-symbolic');
   &:active {
